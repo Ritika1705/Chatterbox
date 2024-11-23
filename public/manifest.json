@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "ChatterBox",
+    "icons": {
+        "32": "chatbot.png"
+    },
+    "version": "1.0.0",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}
